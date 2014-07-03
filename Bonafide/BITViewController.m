@@ -29,6 +29,8 @@
     //paupaupau
     //paupaupau
     
+    //gawa daw ng change si pau kahit busy daw siya
+    
 }
 
 - (void)didReceiveMemoryWarning
