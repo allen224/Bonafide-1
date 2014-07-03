@@ -19,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    // Rhenzzz
+    // Rhenzzz and Pau testing
     // Pau edit.. :)
     // Rhenzzz
 }
