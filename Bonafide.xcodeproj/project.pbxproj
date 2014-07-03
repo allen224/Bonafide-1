@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C3C3151964FD3500EF8AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3C3141964FD3500EF8AAE /* Foundation.framework */; };
+		69C3C3171964FD3500EF8AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3C3161964FD3500EF8AAE /* CoreGraphics.framework */; };
+		69C3C3191964FD3500EF8AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3C3181964FD3500EF8AAE /* UIKit.framework */; };
+		69C3C31F1964FD3500EF8AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69C3C31D1964FD3500EF8AAE /* InfoPlist.strings */; };
+		69C3C3211964FD3500EF8AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C3C3201964FD3500EF8AAE /* main.m */; };
+		69C3C3251964FD3500EF8AAE /* BITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C3C3241964FD3500EF8AAE /* BITAppDelegate.m */; };
+		69C3C3281964FD3500EF8AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C3C3261964FD3500EF8AAE /* Main.storyboard */; };
+		69C3C32B1964FD3500EF8AAE /* BITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C3C32A1964FD3500EF8AAE /* BITViewController.m */; };
+		69C3C32D1964FD3500EF8AAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C3C32C1964FD3500EF8AAE /* Images.xcassets */; };
+		69C3C3341964FD3500EF8AAE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3C3331964FD3500EF8AAE /* XCTest.framework */; };
+		69C3C3351964FD3500EF8AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3C3141964FD3500EF8AAE /* Foundation.framework */; };
+		69C3C3361964FD3500EF8AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3C3181964FD3500EF8AAE /* UIKit.framework */; };
+		69C3C33E1964FD3500EF8AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69C3C33C1964FD3500EF8AAE /* InfoPlist.strings */; };
+		69C3C3401964FD3500EF8AAE /* BonafideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C3C33F1964FD3500EF8AAE /* BonafideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C3C3371964FD3500EF8AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C3C3091964FD3500EF8AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C3C3101964FD3500EF8AAE;
+			remoteInfo = Bonafide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69C3C3111964FD3500EF8AAE /* Bonafide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonafide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C3C3141964FD3500EF8AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69C3C3161964FD3500EF8AAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69C3C3181964FD3500EF8AAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69C3C31C1964FD3500EF8AAE /* Bonafide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bonafide-Info.plist"; sourceTree = "<group>"; };
+		69C3C31E1964FD3500EF8AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69C3C3201964FD3500EF8AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69C3C3221964FD3500EF8AAE /* Bonafide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bonafide-Prefix.pch"; sourceTree = "<group>"; };
+		69C3C3231964FD3500EF8AAE /* BITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BITAppDelegate.h; sourceTree = "<group>"; };
+		69C3C3241964FD3500EF8AAE /* BITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BITAppDelegate.m; sourceTree = "<group>"; };
+		69C3C3271964FD3500EF8AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69C3C3291964FD3500EF8AAE /* BITViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BITViewController.h; sourceTree = "<group>"; };
+		69C3C32A1964FD3500EF8AAE /* BITViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BITViewController.m; sourceTree = "<group>"; };
+		69C3C32C1964FD3500EF8AAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69C3C3321964FD3500EF8AAE /* BonafideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonafideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C3C3331964FD3500EF8AAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69C3C33B1964FD3500EF8AAE /* BonafideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BonafideTests-Info.plist"; sourceTree = "<group>"; };
+		69C3C33D1964FD3500EF8AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69C3C33F1964FD3500EF8AAE /* BonafideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonafideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C3C30E1964FD3500EF8AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3C3171964FD3500EF8AAE /* CoreGraphics.framework in Frameworks */,
+				69C3C3191964FD3500EF8AAE /* UIKit.framework in Frameworks */,
+				69C3C3151964FD3500EF8AAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C3C32F1964FD3500EF8AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3C3341964FD3500EF8AAE /* XCTest.framework in Frameworks */,
+				69C3C3361964FD3500EF8AAE /* UIKit.framework in Frameworks */,
+				69C3C3351964FD3500EF8AAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C3C3081964FD3500EF8AAE = {
+			isa = PBXGroup;
+			children = (
+				69C3C31A1964FD3500EF8AAE /* Bonafide */,
+				69C3C3391964FD3500EF8AAE /* BonafideTests */,
+				69C3C3131964FD3500EF8AAE /* Frameworks */,
+				69C3C3121964FD3500EF8AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69C3C3121964FD3500EF8AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C3C3111964FD3500EF8AAE /* Bonafide.app */,
+				69C3C3321964FD3500EF8AAE /* BonafideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C3C3131964FD3500EF8AAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C3C3141964FD3500EF8AAE /* Foundation.framework */,
+				69C3C3161964FD3500EF8AAE /* CoreGraphics.framework */,
+				69C3C3181964FD3500EF8AAE /* UIKit.framework */,
+				69C3C3331964FD3500EF8AAE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69C3C31A1964FD3500EF8AAE /* Bonafide */ = {
+			isa = PBXGroup;
+			children = (
+				69C3C3231964FD3500EF8AAE /* BITAppDelegate.h */,
+				69C3C3241964FD3500EF8AAE /* BITAppDelegate.m */,
+				69C3C3261964FD3500EF8AAE /* Main.storyboard */,
+				69C3C3291964FD3500EF8AAE /* BITViewController.h */,
+				69C3C32A1964FD3500EF8AAE /* BITViewController.m */,
+				69C3C32C1964FD3500EF8AAE /* Images.xcassets */,
+				69C3C31B1964FD3500EF8AAE /* Supporting Files */,
+			);
+			path = Bonafide;
+			sourceTree = "<group>";
+		};
+		69C3C31B1964FD3500EF8AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C3C31C1964FD3500EF8AAE /* Bonafide-Info.plist */,
+				69C3C31D1964FD3500EF8AAE /* InfoPlist.strings */,
+				69C3C3201964FD3500EF8AAE /* main.m */,
+				69C3C3221964FD3500EF8AAE /* Bonafide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69C3C3391964FD3500EF8AAE /* BonafideTests */ = {
+			isa = PBXGroup;
+			children = (
+				69C3C33F1964FD3500EF8AAE /* BonafideTests.m */,
+				69C3C33A1964FD3500EF8AAE /* Supporting Files */,
+			);
+			path = BonafideTests;
+			sourceTree = "<group>";
+		};
+		69C3C33A1964FD3500EF8AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C3C33B1964FD3500EF8AAE /* BonafideTests-Info.plist */,
+				69C3C33C1964FD3500EF8AAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C3C3101964FD3500EF8AAE /* Bonafide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C3C3431964FD3500EF8AAE /* Build configuration list for PBXNativeTarget "Bonafide" */;
+			buildPhases = (
+				69C3C30D1964FD3500EF8AAE /* Sources */,
+				69C3C30E1964FD3500EF8AAE /* Frameworks */,
+				69C3C30F1964FD3500EF8AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bonafide;
+			productName = Bonafide;
+			productReference = 69C3C3111964FD3500EF8AAE /* Bonafide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69C3C3311964FD3500EF8AAE /* BonafideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C3C3461964FD3500EF8AAE /* Build configuration list for PBXNativeTarget "BonafideTests" */;
+			buildPhases = (
+				69C3C32E1964FD3500EF8AAE /* Sources */,
+				69C3C32F1964FD3500EF8AAE /* Frameworks */,
+				69C3C3301964FD3500EF8AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C3C3381964FD3500EF8AAE /* PBXTargetDependency */,
+			);
+			name = BonafideTests;
+			productName = BonafideTests;
+			productReference = 69C3C3321964FD3500EF8AAE /* BonafideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C3C3091964FD3500EF8AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BIT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Salvador";
+				TargetAttributes = {
+					69C3C3311964FD3500EF8AAE = {
+						TestTargetID = 69C3C3101964FD3500EF8AAE;
+					};
+				};
+			};
+			buildConfigurationList = 69C3C30C1964FD3500EF8AAE /* Build configuration list for PBXProject "Bonafide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C3C3081964FD3500EF8AAE;
+			productRefGroup = 69C3C3121964FD3500EF8AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C3C3101964FD3500EF8AAE /* Bonafide */,
+				69C3C3311964FD3500EF8AAE /* BonafideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C3C30F1964FD3500EF8AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3C32D1964FD3500EF8AAE /* Images.xcassets in Resources */,
+				69C3C31F1964FD3500EF8AAE /* InfoPlist.strings in Resources */,
+				69C3C3281964FD3500EF8AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C3C3301964FD3500EF8AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3C33E1964FD3500EF8AAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C3C30D1964FD3500EF8AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3C3251964FD3500EF8AAE /* BITAppDelegate.m in Sources */,
+				69C3C32B1964FD3500EF8AAE /* BITViewController.m in Sources */,
+				69C3C3211964FD3500EF8AAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C3C32E1964FD3500EF8AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3C3401964FD3500EF8AAE /* BonafideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69C3C3381964FD3500EF8AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C3C3101964FD3500EF8AAE /* Bonafide */;
+			targetProxy = 69C3C3371964FD3500EF8AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69C3C31D1964FD3500EF8AAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C3C31E1964FD3500EF8AAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69C3C3261964FD3500EF8AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C3C3271964FD3500EF8AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69C3C33C1964FD3500EF8AAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C3C33D1964FD3500EF8AAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C3C3411964FD3500EF8AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69C3C3421964FD3500EF8AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C3C3441964FD3500EF8AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonafide/Bonafide-Prefix.pch";
+				INFOPLIST_FILE = "Bonafide/Bonafide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69C3C3451964FD3500EF8AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonafide/Bonafide-Prefix.pch";
+				INFOPLIST_FILE = "Bonafide/Bonafide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69C3C3471964FD3500EF8AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bonafide.app/Bonafide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonafide/Bonafide-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BonafideTests/BonafideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69C3C3481964FD3500EF8AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bonafide.app/Bonafide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bonafide/Bonafide-Prefix.pch";
+				INFOPLIST_FILE = "BonafideTests/BonafideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C3C30C1964FD3500EF8AAE /* Build configuration list for PBXProject "Bonafide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C3C3411964FD3500EF8AAE /* Debug */,
+				69C3C3421964FD3500EF8AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C3C3431964FD3500EF8AAE /* Build configuration list for PBXNativeTarget "Bonafide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C3C3441964FD3500EF8AAE /* Debug */,
+				69C3C3451964FD3500EF8AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69C3C3461964FD3500EF8AAE /* Build configuration list for PBXNativeTarget "BonafideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C3C3471964FD3500EF8AAE /* Debug */,
+				69C3C3481964FD3500EF8AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C3C3091964FD3500EF8AAE /* Project object */;
+}
